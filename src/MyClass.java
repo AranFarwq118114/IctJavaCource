@@ -17,7 +17,7 @@ public class MyClass {
 
         String lastName = "Ali";
 
-        String fullName = firstName + "" + lastName;
+        String fullName = firstName + " " + lastName;
 
         System.out.println(fullName);
 
@@ -40,6 +40,7 @@ public class MyClass {
         int mynumber = 11;
 
         if (mynumber == 10) {
+
             System.out.println("The number an even");
 
         } else {
@@ -57,7 +58,7 @@ public class MyClass {
 
         // ama codey Switch & Case
 
-        int day = 3;
+        int day = 6;
         switch (day) {
             case 1:
                 System.out.println("Monday");
@@ -103,7 +104,12 @@ public class MyClass {
 
         // ama codey For
 
-        for (int y = 0; y < 5; y++) {
+        for (int y = 0; y < 10; y++) {
+            System.out.println(y);
+        }
+
+        // ama codey loop w agara
+        for (int y = 0; y <= 10; y = y + 2) {
             System.out.println(y);
         }
 

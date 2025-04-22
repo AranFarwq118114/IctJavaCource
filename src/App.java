@@ -7,6 +7,7 @@ public class App {
             for (int j = 0; j < 10; j++) {
                 System.out.println("you are inside in loop(j) " + j);
             }
+            System.out.println("********");
         }
     }
 }
